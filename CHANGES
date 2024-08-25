@@ -1,28 +1,28 @@
 Version 1.4
 
-* �h�L�������g�̉��M�C���B
+* ドキュメントの加筆修正。
 
-* �����e-�f�Ɓe--�f�̈�����ύX�B
+* 引数‘-’と‘--’の扱いを変更。
 
 Version 1.3
 
-* ���ׂȏC���B
+* 些細な修正。
 
 Version 1.2
 
-* �������݋֎~�������t�����f�B���N�g�����폜�ł���悤�ɉ��߂��B
+* 書き込み禁止属性が付いたディレクトリを削除できるように改めた。
 
 Version 1.1
 
-* �����Ƃ��ċL�q���ꂽ�p�X���ɗ]���� / �� \ ������Ύ�菜���悤�ɂ����B
-  ���Ƃ��� //a/b//c/ �� /a/b/c �Ƃ��Ė��Ȃ����������B
+* 引数として記述されたパス名に余分な / や \ があれば取り除くようにした。
+  たとえば //a/b//c/ も /a/b/c として問題なく処理される。
 
-* rmdir -p /foo/bar/baz �� rmdir -p A:/foo/bar/baz �̂悤�ȃP�[�X�ł́Afoo
-  ���폜�����炻��ł����܂��Ƃ���悤���߂��B
+* rmdir -p /foo/bar/baz や rmdir -p A:/foo/bar/baz のようなケースでは、foo
+  を削除したらそれでおしまいとするよう改めた。
 
-* �h���C�u��\�ߌ�������̂���߂��B
+* ドライブを予め検査するのをやめた。
 
 Version 1.0
 
-* �쐬�B
+* 作成。
 
